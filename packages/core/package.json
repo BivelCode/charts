@@ -1,0 +1,20 @@
+{
+  "name": "bivelcharts",
+  "version": "0.1.0",
+  "description": "Modern data visualization framework with pipeline architecture",
+  "keywords": ["charts", "visualization", "svg", "typescript"],
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/bivelcharts.cjs.js",
+  "module": "./dist/bivelcharts.esm.js",
+  "unpkg": "./dist/bivelcharts.umd.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/bivelcharts.esm.js",
+      "require": "./dist/bivelcharts.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"]
+}
